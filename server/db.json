@@ -1,0 +1,50 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Renault",
+      "model": "Clio Sport",
+      "year": 2015,
+      "price": 7000,
+      "km": 100000,
+      "engine": {
+        "fuel": "pertrol",
+        "power": 100,
+        "consumption": 4
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Renault",
+      "model": "Twingo",
+      "year": 2014,
+      "price": 2300,
+      "km": 230000,
+      "engine": {
+        "fuel": "diesel",
+        "power": 55,
+        "consumption": 10
+      }
+    },
+    {
+      "brand": "BMW ",
+      "model": "320i",
+      "year": 2017,
+      "price": 20000,
+      "km": 40000,
+      "engine": {
+        "fuel": "diesel",
+        "power": 110,
+        "consumption": 20
+      },
+      "id": 3
+    }
+  ],
+
+  "brands": [
+    "BMW", "VW", "Scoda", "Toyota"
+  ],
+  "models": [
+    {"brandId": 1, "name": "320i"}
+  ]
+}
